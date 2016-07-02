@@ -1,0 +1,16 @@
+
+
+<iframe src="https://rpm.newrelic.com/public/charts/6VooNO2hKWB" width="800" height="500" scrolling="no" frameborder="no"></iframe>
+</br></br>
+<% @products.each do |product| %>
+  <div class="product">
+    <%= link_to image_tag("products/" + product.image_file_name), product_path(product) %>
+    <h2><%= link_to product.title, product_path(product) %></h2>
+    <%#= number_to_currency @product.price %> 
+  </div>
+<% end %>
+
+<div style="clear:both"></div>
+<div style="margin-left: 600px;">
+<%#= will_paginate @products %>
+</div>
