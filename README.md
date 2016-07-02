@@ -8,7 +8,7 @@ This is a test application to demo Active Admin.
 http://demo.activeadmin.info
 
 
-Installation and Setup
+1.  Installation and Setup
 
 For this tutorial, I set up three models.
 
